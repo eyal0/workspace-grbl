@@ -272,7 +272,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl-eyal0", ["chilipeppr_ready"], fun
             
             chilipeppr.load(
                 "#com-chilipeppr-ws-autolevel",
-                "http://raw.githubusercontent.com/chilipeppr-grbl/grbl-widget-autolevel/master/auto-generated-widget.html",
+                "http://raw.githubusercontent.com/eyal0/widget-grbl-autolevel/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-widget-autolevel"], function(autolevel) {
                         autolevel.init();
